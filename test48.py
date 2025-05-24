@@ -19,7 +19,7 @@ NUM_EPOCHS = 2
 NUM_ROUNDS = 100
 BATCH_SIZE = 128
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-DIRICHLET_ALPHA = 0.001
+DIRICHLET_ALPHA = 0.01
 GLOBAL_AGGREGATION_INTERVAL = 5
 
 # 模型定义
