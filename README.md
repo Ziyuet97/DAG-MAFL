@@ -12,9 +12,9 @@ test53 mocha mnist lr=0.001
 
 test54 mocha cifar10 lr=0.01
 
-test46 DAGFL MNIST lr=0.001 
+test55 DAGFL MNIST lr=0.001 
 
-test45 DAGFL cifar10 lr=0.01
+test56 DAGFL cifar10 lr=0.01
 
 TGFL2 mnist lr=0.001
 
